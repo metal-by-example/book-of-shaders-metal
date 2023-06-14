@@ -1,0 +1,7 @@
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+.DS_Store
+.swiftpm
+.build/
+Carthage/Build/

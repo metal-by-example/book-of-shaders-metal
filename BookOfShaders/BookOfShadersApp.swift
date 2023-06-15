@@ -8,5 +8,8 @@ struct BookOfShadersApp: App {
                 .environmentObject(ShaderEditorModel())
                 .navigationTitle("Book of Shaders")
         }
+        .commands {
+            SidebarCommands()
+        }
     }
 }

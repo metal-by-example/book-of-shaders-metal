@@ -30,7 +30,6 @@ class ShaderExampleStore : ObservableObject {
             ShaderExample(title: "Time", fileName: "03a-uniforms-time"),
             ShaderExample(title: "Fragment Coordinates", fileName: "03b-fragment-coord")
         ]),
-        /*
         ShaderExampleSection(title: "Shaping Functions", examples: [
             ShaderExample(title: "Line", fileName:"05a-shape-line"),
             ShaderExample(title: "Quintic Curve", fileName:"05b-shape-quintic"),
@@ -39,10 +38,11 @@ class ShaderExampleStore : ObservableObject {
         ]),
         ShaderExampleSection(title: "Colors", examples: [
             ShaderExample(title: "Mixing Colors", fileName:"06a-color-mix"),
-            ShaderExample(title: "Color Gradients", fileName:"06b-color-gradient"),
-            ShaderExample(title: "HSB Color Space", fileName:"06c-color-hsb"),
-            ShaderExample(title: "HSB in Polar Coordinates", fileName:"06d-color-polar")
+            //ShaderExample(title: "Color Gradients", fileName:"06b-color-gradient"),
+            //ShaderExample(title: "HSB Color Space", fileName:"06c-color-hsb"),
+            //ShaderExample(title: "HSB in Polar Coordinates", fileName:"06d-color-polar")
         ]),
+        /*
         ShaderExampleSection(title: "Shapes", examples: [
             ShaderExample(title: "Rectangle", fileName: "07a-shape-rectangle"),
             ShaderExample(title: "Circle", fileName: "07b-shape-circle"),

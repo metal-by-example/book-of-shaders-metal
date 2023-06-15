@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		837A1A842A3A7EB900FF761E /* ShaderEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837A1A832A3A7EB900FF761E /* ShaderEditorView.swift */; };
+		837A1AA52A3A89B300FF761E /* 05a-shape-line.metal in CopyFiles */ = {isa = PBXBuildFile; fileRef = 837A1A8F2A3A898300FF761E /* 05a-shape-line.metal */; };
+		837A1AA62A3A89B300FF761E /* 05b-shape-quintic.metal in CopyFiles */ = {isa = PBXBuildFile; fileRef = 837A1A932A3A898300FF761E /* 05b-shape-quintic.metal */; };
+		837A1AA72A3A89B300FF761E /* 05c-shape-step.metal in CopyFiles */ = {isa = PBXBuildFile; fileRef = 837A1AA32A3A898300FF761E /* 05c-shape-step.metal */; };
+		837A1AA82A3A89B300FF761E /* 05d-shape-smoothstep.metal in CopyFiles */ = {isa = PBXBuildFile; fileRef = 837A1A912A3A898300FF761E /* 05d-shape-smoothstep.metal */; };
+		837A1AA92A3A89B300FF761E /* 06a-color-mix.metal in CopyFiles */ = {isa = PBXBuildFile; fileRef = 837A1AA22A3A898300FF761E /* 06a-color-mix.metal */; };
 		83F388332A37AD9B008E7395 /* BookOfShadersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F388322A37AD9B008E7395 /* BookOfShadersApp.swift */; };
 		83F388352A37AD9B008E7395 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F388342A37AD9B008E7395 /* ContentView.swift */; };
 		83F388372A37AD9C008E7395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F388362A37AD9C008E7395 /* Assets.xcassets */; };
@@ -32,6 +37,11 @@
 				83F388A92A37E818008E7395 /* 02-hello-world.metal in CopyFiles */,
 				83F388AA2A37EFF1008E7395 /* 03a-uniforms-time.metal in CopyFiles */,
 				83F388AB2A37F004008E7395 /* 03b-fragment-coord.metal in CopyFiles */,
+				837A1AA52A3A89B300FF761E /* 05a-shape-line.metal in CopyFiles */,
+				837A1AA62A3A89B300FF761E /* 05b-shape-quintic.metal in CopyFiles */,
+				837A1AA72A3A89B300FF761E /* 05c-shape-step.metal in CopyFiles */,
+				837A1AA82A3A89B300FF761E /* 05d-shape-smoothstep.metal in CopyFiles */,
+				837A1AA92A3A89B300FF761E /* 06a-color-mix.metal in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +49,11 @@
 
 /* Begin PBXFileReference section */
 		837A1A832A3A7EB900FF761E /* ShaderEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderEditorView.swift; sourceTree = "<group>"; };
+		837A1A8F2A3A898300FF761E /* 05a-shape-line.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "05a-shape-line.metal"; sourceTree = "<group>"; };
+		837A1A912A3A898300FF761E /* 05d-shape-smoothstep.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "05d-shape-smoothstep.metal"; sourceTree = "<group>"; };
+		837A1A932A3A898300FF761E /* 05b-shape-quintic.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "05b-shape-quintic.metal"; sourceTree = "<group>"; };
+		837A1AA22A3A898300FF761E /* 06a-color-mix.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "06a-color-mix.metal"; sourceTree = "<group>"; };
+		837A1AA32A3A898300FF761E /* 05c-shape-step.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "05c-shape-step.metal"; sourceTree = "<group>"; };
 		83F3882F2A37AD9B008E7395 /* BookOfShaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookOfShaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F388322A37AD9B008E7395 /* BookOfShadersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookOfShadersApp.swift; sourceTree = "<group>"; };
 		83F388342A37AD9B008E7395 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +134,11 @@
 				83F3884A2A37C53C008E7395 /* 02-hello-world.metal */,
 				83F3884C2A37C5E1008E7395 /* 03a-uniforms-time.metal */,
 				83F3884E2A37C6AE008E7395 /* 03b-fragment-coord.metal */,
+				837A1A8F2A3A898300FF761E /* 05a-shape-line.metal */,
+				837A1A932A3A898300FF761E /* 05b-shape-quintic.metal */,
+				837A1AA32A3A898300FF761E /* 05c-shape-step.metal */,
+				837A1A912A3A898300FF761E /* 05d-shape-smoothstep.metal */,
+				837A1AA22A3A898300FF761E /* 06a-color-mix.metal */,
 				83F388CC2A38E41F008E7395 /* vertex.metal */,
 			);
 			path = Shaders;

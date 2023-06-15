@@ -19,8 +19,10 @@ constant float3 colorB { 0.980f, 0.275f, 0.090f };
 float4 fragment_main(FragmentIn in [[stage_in]],
                      constant Uniforms &uniforms [[buffer(0)]])
 {
-    // Vary the proportion of colors as a function of time
-    float fraction = abs(sin(uniforms.time));
+    // Vary the proportion of colors as a function of time.
+    // Sine oscillates between -1 and 1 so we scale and offset
+    // to get a value ranging from 0 to 1.
+    float fraction =sin(uniforms.time) * 0.5 + 0.5f;
 
     // The mix() function linearly interpolates between its
     // first two arguments based on its third argument (0-1).

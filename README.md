@@ -15,7 +15,7 @@ No further development or support of this project should be expected.
 Broadly speaking, Metal Shading Language (MSL) is syntactically similar to GLSL, but there are a few differences.
 
  - GLSL matrix and vector types such as `mat3` and `vec3` should be converted to their respective Metal types (e.g., `float3x3` and `float3`)
- - Metal's `fmod` function differs subtly from GLSL's `mod` function and cannot be used as a direct substitute. Instead, use the following replacement
+ - Metal's `fmod` function differs subtly from GLSL's `mod` function and cannot be used as a direct substitute. Instead, use the following replacement:
  
 ```c++
 float mod(float x, float y) {
@@ -26,7 +26,7 @@ float mod(float x, float y) {
  - Be careful when using C++ uniform initialization with Metal's matrix types. To specify a column-major matrix, place each column's elements in its own braces, e.g.:
  
  ```c++
- float3x3 m = { { 1.0f, 0.0f }, { 0.0f, 1.0f } };
+ float2x2 m = { { 1.0f, 0.0f }, { 0.0f, 1.0f } };
  ```
  
-  - MSL's `powr` function is a closer match to GLSL's `pow` function than MSL's `pow` function and `powr` should be used whenever the parameters are known to be positive
+  - MSL's `powr` function is a closer match to GLSL's `pow` function than MSL's `pow` function and `powr` should be used whenever the first argument is known to be non-negative.
